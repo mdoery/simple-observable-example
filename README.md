@@ -11,7 +11,7 @@ Upon running the example, you'll see messages being printed from the ``ObserverE
 
 Expected output:
 
-``
+```
 com.mdoery.observerinjava.ObservableExample@50dcdeae
 Snickerdoodle
 Served with a hot cocoa
@@ -21,4 +21,4 @@ Served with a latte
 com.mdoery.observerinjava.ObservableExample@50dcdeae
 null
 Which hot beverage would you prefer?
-``
+```
