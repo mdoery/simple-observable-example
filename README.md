@@ -22,3 +22,11 @@ com.mdoery.observerinjava.ObservableExample@50dcdeae
 null
 Which hot beverage would you prefer?
 ```
+
+## Not using the Observer Pattern ##
+
+This project includes a code sample, ``CustomObserver.java``, which does the same thing as the ``ObserverExample`` class, but without using the ``Observer`` interface and the ``Observable`` class.
+
+You can run it and verify that the output is basically the same.
+
+However, here, there's more code clutter involved in notifying the "observer". Using Java's built-in tools to implement the ``Observer`` pattern, as is done in the first example, keeps our code more maintainable and readable.
